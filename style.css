@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body { 
+  height: 100%;
+  font-family: Noto Sans,sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  border-bottom: 3px solid #000;
+}
+
+.nav {
+  padding: 5px 15px 11px;
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  padding: 0 5px;
+  border-right: 2px solid #000;
+}
+
+.nav a {
+  color: #222;
+}
+
+.nav li:last-child {
+  border: none;
+}
+
+.main {
+  height: calc(100% - 38px);
+  display: flex;
+}
+
+.treeMenu {
+  overflow-y: scroll;
+  padding-bottom: 30px;
+  height: calc(100% - 30px);
+  flex: 0 0 300px;
+}
+
+.item {
+  position: relative;
+  padding: 10px 10px 0 25px; 
+}
+
+.details {
+  position: relative;
+  padding: 10px 0 0 10px;
+}
+
+.treeMenu details {
+  display: block;
+}
+
+.treeMenu summary {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.mainContentBlock {
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+.breadcrumbs {
+  display: flex;
+  border-bottom: 1px solid #222
+}
+
+.breadcrumbsLinks + .breadcrumbsLinks::before {
+  padding: 0 5px;
+  content: "/\00a0";
+}
+
+.breadcrumbsLinks {
+  padding: 8px 5px;
+  color: #6c757d;
+  list-style: none;
+  cursor: pointer;
+}
+
+.active {
+  color: rgb(180, 152, 243)
+}
+
+.content {
+  height: calc(100% - 40px);
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.contentBLock {
+  text-align: center;
+  padding: 20px 10px 10px;
+}
+
+.contentBLock img {
+  width: 250px;
+  height: 250px;
+}
+
+.contentBLock p {
+  padding-top: 10px;
+}
+
+
+
