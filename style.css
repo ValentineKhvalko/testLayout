@@ -60,6 +60,7 @@ a {
 .details {
   position: relative;
   padding: 10px 0 0 10px;
+  display: flex;
 }
 
 .treeMenu details {
@@ -72,6 +73,79 @@ a {
   left: 10px;
   cursor: pointer;
   outline: none;
+}
+
+.details p, details a {
+  padding-left: 5px;
+}
+
+.icon {
+  min-width: 16px;
+  height: 16px;
+  border-radius: 50%; 
+  background: no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.html {
+  background-image: url('./assets/HTML5.jpg');
+}
+
+.css {
+  background-image: url('./assets/css.jpg');
+}
+
+.scss {
+  background-image: url('./assets/scss.png');
+}
+
+.js {
+  background-image: url('./assets/js.png');
+}
+
+.js5 {
+  background-image: url('./assets/js5.png');
+}
+
+.ts {
+  background-image: url('./assets/ts.png');
+}
+
+.react {
+  background-image: url('./assets/react.jpg');
+}
+
+.redux {
+  background-image: url('./assets/redux.jpg');
+}
+
+.git {
+  background-image: url('./assets/git.png');
+}
+
+.webpack {
+  background-image: url('./assets/webpack.png');
+}
+
+.jest {
+  background-image: url('./assets/Jest.png');
+}
+
+.restApi {
+  background-image: url('./assets/REST-API.jpg');
+}
+
+.bird {
+  background-image: url('./assets/bird.png');
+}
+
+.weather {
+  background-image: url('./assets/weather.jpg');
+}
+
+.play {
+  background-image: url('./assets/play.png');
 }
 
 .mainContentBlock {
